@@ -1,3 +1,4 @@
+
 name: PPA Talk Android Build
 
 on:
@@ -19,7 +20,7 @@ jobs:
 
       - name: Extract Android Project
         run: |
-         unzip -o PPA_Talk_Firestore_Feed_CreatePost.zip -d extracted
+          unzip -o PPA_Talk_UI_1.2.0.zip -d extracted
 
       - name: Setup Java 17
         uses: actions/setup-java@v4
