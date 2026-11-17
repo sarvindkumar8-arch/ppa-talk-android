@@ -19,9 +19,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract Android Project
-        run: |
-          unzip -o PPA_Talk_UI_1.2.0.zip -d extracted
-
+        run:
+          unzip -o PPA_Talk_Firestore_Feed_CreatePost.zip -d extracted
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
